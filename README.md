@@ -6,21 +6,56 @@ Welcome to Future Warriors, an exciting game project developed by JeqQ Game Stud
 - [About Future Warriors](#about-future-warriors)
 - [Materials](#materials)
 - [Models](#models)
-- [Graphics](#graphics)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About Future Warriors
 Future Warriors is an immersive video game developed by JeqQ Game Studio. It's set in a futuristic world where players can engage in epic battles with advanced technology and powerful characters. This repository contains various assets related to the game's development.
 
-## Materials
-The "Materials" directory includes resources such as design documents, concept art, and storyboards related to the game's development. These materials are essential for understanding the creative process behind Future Warriors.
-
 ## Models
 The "Models" directory contains 3D models, character designs, and environmental assets used in the game. These assets play a crucial role in creating the visual world of Future Warriors.
+### Player 
+  - Main
+  ![Main Model](https://i.imgur.com/wQkQ0zh.png)
+### Long Weapons
+  - Linear Fushion Gun
+  ![Linear Fushion Gun](https://i.imgur.com/TbUqERt.png)
+  - Heavy Sniper Rifle
+  ![Heavy Sniper Rifle](https://i.imgur.com/Ps4ZlXN.png)
+  - Medium Heavy Sniper Rifle 
+  On its way to show up there.
+  - Light Sniper Rifle
+  ![Light Sniper Rifle](https://i.imgur.com/cK4mqPF.png)
+  - Shotgun (circlular)
+  ![Shotgun (circlular)](https://i.imgur.com/AGJsLkB.png)
+  - Shotgun (linear)
+  On its way to show up there.
+  - Assault Rifle
+  On its way to show up there.
+  - Submachine Gun
+  On its way to show up there.
+### Short Weapons
+  - Submachine Pistol
+  On its way to show up there.
+  - Glock
+  On its way to show up there.
+  - Rewolwer
+  ![Rewolwer](https://i.imgur.com/4aRbee0.png)
+### Melee Weapons
+  - Katana
+  On its way to show up there.
+  - Knife
+  On its way to show up there.
+  - Light Saber
+  On its way to show up there.
+  - Shurikens
+  On its way to show up there.
 
-## Graphics
-The "Graphics" directory encompasses various graphical elements like textures, icons, UI designs, and promotional art. These visuals help in shaping the game's interface and promotional materials.
+
+## Colorized Models
+The "Colorized Models" directory includes resources such as design and concept art related to the game's development. These models are essential for understanding the creative process behind Future Warriors.
+### Iridescent on rewolwer
+ ![Iridescent on rewo, 45](https://i.imgur.com/M3BDNV7.png)
+ ![Iridescent on rewo, side](https://i.imgur.com/OVI5C4N.png)
+
 
 
 ## Contact

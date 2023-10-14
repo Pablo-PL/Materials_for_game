@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/jakub.pawlowski/My project (1)
+C:/Users/jakub.pawlowski/color_testing/Materials_for_game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63229
-Successfully changed project path to: C:/Users/jakub.pawlowski/My project (1)
-C:/Users/jakub.pawlowski/My project (1)
+54133
+Successfully changed project path to: C:/Users/jakub.pawlowski/color_testing/Materials_for_game
+C:/Users/jakub.pawlowski/color_testing/Materials_for_game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/jakub.pawlowski/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5152] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1569590007 [EditorId] 1569590007 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQUA4ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11188] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4165856374 [EditorId] 4165856374 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQUA4ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5152] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1569590007 [EditorId] 1569590007 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQUA4ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11188] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4165856374 [EditorId] 4165856374 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQUA4ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 8.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jakub.pawlowski/My project (1)/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jakub.pawlowski/color_testing/Materials_for_game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013160 seconds.
-- Loaded All Assemblies, in  0.421 seconds
+Registered in 0.011184 seconds.
+- Loaded All Assemblies, in  0.398 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 713ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 686ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (115ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (294ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (290ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (219ms)
+		SetupLoadedEditorAssemblies (229ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 713ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.694 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,866 +126,58 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 1324ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (294ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (175ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (632ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (461ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
-Memory consumption went from 114.1 MB to 114.0 MB.
-Total: 3.119400 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.270900 ms MarkObjects: 2.495700 ms  DeleteObjects: 0.092000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 196557.719165 seconds.
-  path: Assets/cos_V1.blend
-  artifactKey: Guid(bc19ec13fec07344da33a2dbf7c8023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cos_V1.blend using Guid(bc19ec13fec07344da33a2dbf7c8023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b6c64e4c41b74a46a6f177d4d7a405') in 0.141507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 3544.
-Memory consumption went from 70.2 MB to 70.2 MB.
-Total: 2.737300 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.200100 ms MarkObjects: 2.310100 ms  DeleteObjects: 0.006000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.441 seconds
-Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.929 seconds
-Domain Reload Profiling: 1368ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 983ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (255ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (930ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (527ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
+		SetupLoadedEditorAssemblies (370ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (311ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (285ms)
 			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 218 unused Assets / (8.8 MB). Loaded Objects now: 3748.
-Memory consumption went from 178.6 MB to 169.8 MB.
-Total: 8.015700 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.305900 ms MarkObjects: 2.483400 ms  DeleteObjects: 4.957900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 287.079724 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(898a2d9a55a9d1f46a2b50590fb1b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(898a2d9a55a9d1f46a2b50590fb1b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabc138a4276525b0ee04586d2f5834c') in 0.002576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.441 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.780 seconds
-Domain Reload Profiling: 1219ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (256ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (780ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (32.3 KB). Loaded Objects now: 3746.
-Memory consumption went from 118.6 MB to 118.6 MB.
-Total: 2.478900 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.219600 ms MarkObjects: 1.985800 ms  DeleteObjects: 0.042300 ms)
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (53.4 KB). Loaded Objects now: 1860.
+Memory consumption went from 77.1 MB to 77.0 MB.
+Total: 3.895400 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.109600 ms MarkObjects: 3.471100 ms  DeleteObjects: 0.141200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 234 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1104 unused Assets / (9.8 MB). Loaded Objects now: 2876.
-Memory consumption went from 128.5 MB to 118.7 MB.
-Total: 11.159500 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.284000 ms MarkObjects: 2.402900 ms  DeleteObjects: 8.194000 ms)
-
-Prepare: number of updated asset objects reloaded= 196
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 279.209820 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/LightWrapping.mat
-  artifactKey: Guid(0baa0be77ffe0ec4bbba3c06cb8f887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/LightWrapping.mat using Guid(0baa0be77ffe0ec4bbba3c06cb8f887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96fbdb61cce06db5cc664eea70066d6') in 0.260910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/Refraction.mat
-  artifactKey: Guid(2eced452d5ec44e49985d30395b1e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/Refraction.mat using Guid(2eced452d5ec44e49985d30395b1e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740ab967deee8a0eed9748849e824d7') in 0.203052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/VertexColorRounding.mat
-  artifactKey: Guid(5d9b849895144ea4983f3b1f36bbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/VertexColorRounding.mat using Guid(5d9b849895144ea4983f3b1f36bbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c67c24cc27522990e3eed399dd5625') in 0.035087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/PixelRotator.mat
-  artifactKey: Guid(ad0f5de566d7147fe91238a7111958f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/PixelRotator.mat using Guid(ad0f5de566d7147fe91238a7111958f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b68993d2bd79f28791fe6fa64426c88') in 0.093991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/VertexAnimation_blue.mat
-  artifactKey: Guid(4a36ae71b48f14d6fb2eae31da682a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/VertexAnimation_blue.mat using Guid(4a36ae71b48f14d6fb2eae31da682a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943709c8c1030ed5a31fa7d207f665b') in 0.177452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/Tiles.mat
-  artifactKey: Guid(393931f1639a1fe40b68d72551bef241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/Tiles.mat using Guid(393931f1639a1fe40b68d72551bef241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a28a20ef4fe1bfaf0312f044eca4aa') in 0.178269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ShaderForge/Example Assets/Shaders/Vegetation.mat
-  artifactKey: Guid(d2accf36f48355a4cbd925162706dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Shaders/Vegetation.mat using Guid(d2accf36f48355a4cbd925162706dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1c5ec8a9d3fc2f2c1f5da8df174150') in 0.155482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 87.747632 seconds.
-  path: Assets/Materials/Vinyl/CarbonFiber 1.mat
-  artifactKey: Guid(53510fb6cfd19d04c8a1288f61c08701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Vinyl/CarbonFiber 1.mat using Guid(53510fb6cfd19d04c8a1288f61c08701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb153586dfacf7d1aaee60cb97a1f19') in 0.159705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1.066555 seconds.
-  path: Assets/Textures/ColorRamp/cd_texture_by_xchristina27x-d59a0cx.jpg
-  artifactKey: Guid(bd0dada1c589e4648aced50b59ad39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ColorRamp/cd_texture_by_xchristina27x-d59a0cx.jpg using Guid(bd0dada1c589e4648aced50b59ad39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5a97f36cc9e50679638ca55d586d83') in 0.029202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Textures/Vinyl/vinyl 2.png
-  artifactKey: Guid(3d9eaef0a9fad2e4daebca8e2167e234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Vinyl/vinyl 2.png using Guid(3d9eaef0a9fad2e4daebca8e2167e234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a186072d87400469f93cab4350c08622') in 0.021058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 21.726110 seconds.
-  path: Assets/Textures/CubeMap/waterfall_Ref.exr
-  artifactKey: Guid(4ee32055a2fd7a346bfd1dc6322f4a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CubeMap/waterfall_Ref.exr using Guid(4ee32055a2fd7a346bfd1dc6322f4a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdfc571cd533f6f82ad7be95ae81c6c') in 0.044488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/NoiseLib/whitenoise.gif
-  artifactKey: Guid(ed03a25ed7f4ec34a86ded1b0c0263c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoiseLib/whitenoise.gif using Guid(ed03a25ed7f4ec34a86ded1b0c0263c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178edf3b08c783f74e30e479fee925e4') in 0.023116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.097212 seconds.
-  path: Assets/Models/Tuna/TUNA.JPG
-  artifactKey: Guid(fdfca8b19649cbf49a564792917060e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tuna/TUNA.JPG using Guid(fdfca8b19649cbf49a564792917060e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904b4ca54332e78f471d75616504ef47') in 0.051891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_viewreflectionvector.png
-  artifactKey: Guid(fbcf50a1249763e499e2c1b6ecd03e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_viewreflectionvector.png using Guid(fbcf50a1249763e499e2c1b6ecd03e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6799eafd11da32ca8f8d44f2c5087f33') in 0.020555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.293200 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_viewreflectionvector.png
-  artifactKey: Guid(877bc628b69844ba081a63095156a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_viewreflectionvector.png using Guid(877bc628b69844ba081a63095156a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814c2ea81defb4e2841874ab3922069d') in 0.017545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.028705 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_vertexcolor.png
-  artifactKey: Guid(d97533a3ae000c74e9189e8f6a4be215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_vertexcolor.png using Guid(d97533a3ae000c74e9189e8f6a4be215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2374e90193d990fd864cb7aaa1f768') in 0.019016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.026412 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_tau.png
-  artifactKey: Guid(e31a63f585d176646a3a20814a548c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_tau.png using Guid(e31a63f585d176646a3a20814a548c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73574960aae7ca9342a6863d1df8dc2') in 0.017931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.238745 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_tangent.png
-  artifactKey: Guid(ecc4a0e9f929f6743b4aa623ad37a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_tangent.png using Guid(ecc4a0e9f929f6743b4aa623ad37a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f2935c92c2587c0b00c522a20dce09') in 0.017710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_screenpos_2.png
-  artifactKey: Guid(8132d6b257d4a9b49b062ad21bdc3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_screenpos_2.png using Guid(8132d6b257d4a9b49b062ad21bdc3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c983ce8ad481b0d32b0183a2d9b43605') in 0.021707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011443 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_screenparameters.png
-  artifactKey: Guid(a7121136193cdc44eb2411196d54d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_screenparameters.png using Guid(a7121136193cdc44eb2411196d54d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ea6ff0381db362666fc89d467624c') in 0.018331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.222626 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_projectionparameters.png
-  artifactKey: Guid(a189481e94c05ea4c982d13fe59ff9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_projectionparameters.png using Guid(a189481e94c05ea4c982d13fe59ff9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a551c5f2b75df290c6f1ed0ac623e9') in 0.018839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_phi.png
-  artifactKey: Guid(e15c69e8d7d60e444be990c1972eb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_phi.png using Guid(e15c69e8d7d60e444be990c1972eb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9350b89bca4cb05df1b1e0195138a9') in 0.018194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_normalvector_2.png
-  artifactKey: Guid(630f164e44edb4d848a0fc4d010cfb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_normalvector_2.png using Guid(630f164e44edb4d848a0fc4d010cfb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea6f644440b0596926a64492255dc28') in 0.018527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_normalvector_2.png
-  artifactKey: Guid(eb7f231caa33910479965b1e625cc13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_normalvector_2.png using Guid(eb7f231caa33910479965b1e625cc13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e36aa500fd5ab4ab61bccb6a5d8144') in 0.018338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.015413 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_normalvector.png
-  artifactKey: Guid(398df227343444572afe5e225ddd06aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_normalvector.png using Guid(398df227343444572afe5e225ddd06aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8509cbe474277d8eb9793698d744a23c') in 0.017916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.178757 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightvector.png
-  artifactKey: Guid(8e12b01a3c4a545ecb549a9b3c7670cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightvector.png using Guid(8e12b01a3c4a545ecb549a9b3c7670cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0faa3d70b66ad4bb5dbae7e53fd422c') in 0.037030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightcolor.png
-  artifactKey: Guid(67173129de388421e8f4932415108e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightcolor.png using Guid(67173129de388421e8f4932415108e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1856fe6a58d88e5ae93cfe3c8a9e0897') in 0.017383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightattenuation.png
-  artifactKey: Guid(ba371855252614506947b2f28f1d8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_lightattenuation.png using Guid(ba371855252614506947b2f28f1d8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49063c03c1431abc02af6572e035e05') in 0.017394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_halfvector.png
-  artifactKey: Guid(703379c961c27714cb7175c0e86d4557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_halfvector.png using Guid(703379c961c27714cb7175c0e86d4557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd996a884f58229f264fa01f7e029de') in 0.017859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.127871 seconds.
-  path: Assets/Textures/brown-fur-texture-600x600.jpg
-  artifactKey: Guid(b3c90777a36eeae43bec7d73ed312b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/brown-fur-texture-600x600.jpg using Guid(b3c90777a36eeae43bec7d73ed312b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3458eaddec6a1102c4947fc48a36bf08') in 0.018083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/chk.png
-  artifactKey: Guid(72f052122502345f1b365b37455a8e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/chk.png using Guid(72f052122502345f1b365b37455a8e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f02f1fe6531de23b18209ca5385689c') in 0.015656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/NoiseLib/flowmap.jpg
-  artifactKey: Guid(4ce5ef3b29a6c29439ede74798e3493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoiseLib/flowmap.jpg using Guid(4ce5ef3b29a6c29439ede74798e3493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6db06f780ca869b7af9ba50223560f') in 0.016057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 40.614860 seconds.
-  path: Assets/Textures/NormalMap.jpg
-  artifactKey: Guid(a9f7d4f372f3f7f479339a3f063fdbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/NormalMap.jpg using Guid(a9f7d4f372f3f7f479339a3f063fdbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaee9566a7410f1297a2f526a3f832b') in 0.032629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.054654 seconds.
-  path: Assets/Materials/Surface/Fish.mat
-  artifactKey: Guid(6d3cd51e581e2484d96195128e38ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/Fish.mat using Guid(6d3cd51e581e2484d96195128e38ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5015211535fe4f9116810675615bf6cf') in 0.241968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Materials/Surface/SimpleBubble.mat
-  artifactKey: Guid(8241f52e9f25c024a930d2c964822428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/SimpleBubble.mat using Guid(8241f52e9f25c024a930d2c964822428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae21cb2e79c4669be78231f595d0345') in 0.165184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Materials/Surface/Fish 1.mat
-  artifactKey: Guid(f2884e6eb877e494780be645255ae5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/Fish 1.mat using Guid(f2884e6eb877e494780be645255ae5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e028be65643ca5a2ae7caf12a5b520') in 0.019413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/Surface/Iridescence2.mat
-  artifactKey: Guid(3c9710d6e5e89e64e88798c5f2e47a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/Iridescence2.mat using Guid(3c9710d6e5e89e64e88798c5f2e47a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578f85ced3afb71dd666c6bfa11f0017') in 0.248349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Materials/Surface/Fish 2.mat
-  artifactKey: Guid(b3be3267073040c40976d8f3f43a413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/Fish 2.mat using Guid(b3be3267073040c40976d8f3f43a413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6850117132fd94bf9dfef6815b501fc6') in 0.029624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 25.570596 seconds.
-  path: Assets/NoiseLib/a30731017bc30be42dc88b8565da517a0314b01b.jpg
-  artifactKey: Guid(8f5e26e84d1013742b84a9dcd8b5a55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoiseLib/a30731017bc30be42dc88b8565da517a0314b01b.jpg using Guid(8f5e26e84d1013742b84a9dcd8b5a55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0979a7778aa78519c5f3cda572014f48') in 0.019172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.076087 seconds.
-  path: Assets/NoiseLib/r1758584_rrwhite_noise2_shop_preview.png
-  artifactKey: Guid(d791d4aab54957147904e16992f1fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NoiseLib/r1758584_rrwhite_noise2_shop_preview.png using Guid(d791d4aab54957147904e16992f1fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e6bd24c647a0c4c5eb1bbcbe0971d7') in 0.022241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_conc_floor_01_n.tga
-  artifactKey: Guid(bbab0a6f7bae9cf42bf057d8ee2755f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_conc_floor_01_n.tga using Guid(bbab0a6f7bae9cf42bf057d8ee2755f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ab9d8bcef042eb3c6f26950a630464') in 0.030862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_conc_floor_01_d.tga
-  artifactKey: Guid(b66bceaf0cc0ace4e9bdc92f14bba709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_conc_floor_01_d.tga using Guid(b66bceaf0cc0ace4e9bdc92f14bba709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d112946aeac7ebec358b584894b911') in 0.022833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/screenshot_icon.png
-  artifactKey: Guid(881bacfcd03154f1c9bdc3c7eb0aee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/screenshot_icon.png using Guid(881bacfcd03154f1c9bdc3c7eb0aee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d16654282681f5fff2b2a390784ffc8') in 0.018794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.587808 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_gradient_ramp_01.png
-  artifactKey: Guid(271f5ee3273dd7f4fae6e204d4f8c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_gradient_ramp_01.png using Guid(271f5ee3273dd7f4fae6e204d4f8c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e662567a5db411a0c99c9258f2b6cd6') in 0.019818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.042702 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_leaves_01_d.tga
-  artifactKey: Guid(66321cc856b03e245ac41ed8a53e0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_leaves_01_d.tga using Guid(66321cc856b03e245ac41ed8a53e0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c60b5bb6858b8732dd5c2742dea8b') in 0.019052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.223401 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_noise_clouds_01.png
-  artifactKey: Guid(28c7aad1372ff114b90d330f8a2dd938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_noise_clouds_01.png using Guid(28c7aad1372ff114b90d330f8a2dd938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d3b097d0bbbdeba63733be75d08398') in 0.023885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_parallax_test_ao_height.tga
-  artifactKey: Guid(5fb7986dd6d0a8e4093ba82369dd6a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_parallax_test_ao_height.tga using Guid(5fb7986dd6d0a8e4093ba82369dd6a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c54de25615a082b2d65d546303e0c1') in 0.025315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.512152 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_rgb_overlap.png
-  artifactKey: Guid(aa762ee7680f35f4fb9a9210fa94ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_rgb_overlap.png using Guid(aa762ee7680f35f4fb9a9210fa94ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a79c6a8b1ee72fbf1781c581c911243') in 0.025059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ShaderForge/Example Assets/Textures/sf_tile_01_d.tga
-  artifactKey: Guid(8993b617f08498f43adcbd90697f1c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Example Assets/Textures/sf_tile_01_d.tga using Guid(8993b617f08498f43adcbd90697f1c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7de733fe04d873d025b43a7de821d40') in 0.025902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.040366 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_ambientlight.png
-  artifactKey: Guid(87729cd9b749b43458e1874dcc21ed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_ambientlight.png using Guid(87729cd9b749b43458e1874dcc21ed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2412fecdcf2608fb631345769332969') in 0.016788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.029487 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_bitangent.png
-  artifactKey: Guid(51aa11ae9f6e54c76b49ebb6f6bf55a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_bitangent.png using Guid(51aa11ae9f6e54c76b49ebb6f6bf55a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d9b9a28c40462f599faf65dacafb00') in 0.016907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.703130 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_depth.png
-  artifactKey: Guid(9a06ccda88cf08040b15236734546bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_depth.png using Guid(9a06ccda88cf08040b15236734546bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32206bcac7f30484c9bd2c8170ecd38f') in 0.020274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.464693 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_facesign.png
-  artifactKey: Guid(e3a845ef959fb8c48af98819ec486cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_facesign.png using Guid(e3a845ef959fb8c48af98819ec486cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc76a5774136ddc23bd6136e064f021') in 0.020625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_final.png
-  artifactKey: Guid(356d9441fe4ee4b3fa2897afb2dca0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_final.png using Guid(356d9441fe4ee4b3fa2897afb2dca0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e96f4ef960d4f513474d1123b77c09') in 0.020652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.098481 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_fogcolor_2.png
-  artifactKey: Guid(421c05cb33c35724db61a30e3a20003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/sfn_fogcolor_2.png using Guid(421c05cb33c35724db61a30e3a20003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807cb5195517bc312f7abae6cb9e523c') in 0.026246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.025330 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_fragmentposition.png
-  artifactKey: Guid(335d39ac920954c01ac193e693291d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/sfn_fragmentposition.png using Guid(335d39ac920954c01ac193e693291d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cca65c2ac9f9d0f71609afb9bfa161') in 0.017619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.412024 seconds.
-  path: Assets/Textures/ColorRamp/3.png
-  artifactKey: Guid(83e4dd29d1b71c047ab17f4560fd5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ColorRamp/3.png using Guid(83e4dd29d1b71c047ab17f4560fd5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b184078ca426323335b9a4d4e16aac') in 0.017871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 21.161274 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_posteffect.png
-  artifactKey: Guid(da3c81f5610b82f439e06f9fab488b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_posteffect.png using Guid(da3c81f5610b82f439e06f9fab488b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d411f619d6d2076319cb12ffd502456') in 0.019804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_litbasic.png
-  artifactKey: Guid(69e1494bf9c84a24abf1253a95a6652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_litbasic.png using Guid(69e1494bf9c84a24abf1253a95a6652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8a0ead4d1ed330c560661d3b738fad') in 0.020276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/logo.png
-  artifactKey: Guid(b116bf56b843a432b96dc6e7e0788e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/logo.png using Guid(b116bf56b843a432b96dc6e7e0788e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143967cbec55d2c171704b3d35bada03') in 0.019283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/inst_vert.png
-  artifactKey: Guid(5f0ae3fa9bd0d9b48b89c99f2e6b8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/inst_vert.png using Guid(5f0ae3fa9bd0d9b48b89c99f2e6b8c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4798c6aaa2620168f4f2c178f14469f8') in 0.017150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/inst_frag_tex_light.png
-  artifactKey: Guid(f03e39f9e5523ac4a8d46e573c6b8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/inst_frag_tex_light.png using Guid(f03e39f9e5523ac4a8d46e573c6b8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b7dec5ba110dc72de0f92bbc0074f0') in 0.015844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/node_3d_data_mask.png
-  artifactKey: Guid(93411440cabbd493e9d9b949ba3c82fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Nodes/Data/node_3d_data_mask.png using Guid(93411440cabbd493e9d9b949ba3c82fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348f0adcb0a4ccdf1c194a7ff5103f3b') in 0.016683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_particlealphablended_light.png
-  artifactKey: Guid(a9f2c075e122fa345a03d5fae7aa2540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_particlealphablended_light.png using Guid(a9f2c075e122fa345a03d5fae7aa2540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6a0430b9721b28d25e46c3b47ead82') in 0.015360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/inst_frag.png
-  artifactKey: Guid(46671ce9b6548d6418bf2b00bd46cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/inst_frag.png using Guid(46671ce9b6548d6418bf2b00bd46cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd075a70dcd15fbeccb7e0beb669d65ae') in 0.015071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_particleadditive_light.png
-  artifactKey: Guid(8fcd9b707db9dbf40933b1b4f346a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_particleadditive_light.png using Guid(8fcd9b707db9dbf40933b1b4f346a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae46239522899cbd71785798adf52db6') in 0.016692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/icon.png
-  artifactKey: Guid(7aae165d391b84eddbed5fd0ec9e6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/icon.png using Guid(7aae165d391b84eddbed5fd0ec9e6460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9391ddaba9314821bb92de38a6bbc56') in 0.015476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/icon_light.png
-  artifactKey: Guid(a67aa329325af46d4a9c18d7ad10dc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/icon_light.png using Guid(a67aa329325af46d4a9c18d7ad10dc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db8bdb9c8d51f7a13efea8e9b538d70') in 0.016330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/inst_vert_tex.png
-  artifactKey: Guid(2dc1af4131132724ea03a4dd4e88b052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/inst_vert_tex.png using Guid(2dc1af4131132724ea03a4dd4e88b052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fe89937a3f90df298b3d52ffe91777') in 0.016538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_particlealphablended.png
-  artifactKey: Guid(b3d536f9af52ecd4082d779248bddd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_particlealphablended.png using Guid(b3d536f9af52ecd4082d779248bddd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02645f0b5d5b1bcbce152df236f86f1') in 0.016708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ShaderForge/Editor/InternalResources/Interface/preset_litpbr.png
-  artifactKey: Guid(a4259037a0bba7b41884b33f9653b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderForge/Editor/InternalResources/Interface/preset_litpbr.png using Guid(a4259037a0bba7b41884b33f9653b20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2a310a78688d1f1e08422c44bd888') in 0.019755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 301.696118 seconds.
-  path: Assets/Materials/Fragment/Smkgames_IridescenceDistortion.mat
-  artifactKey: Guid(770c3d1b1626dc44c934051d9bd6384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Fragment/Smkgames_IridescenceDistortion.mat using Guid(770c3d1b1626dc44c934051d9bd6384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2bbe9e6aefb5242122efd4c6ec5361') in 0.049279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 840.966231 seconds.
-  path: Assets/Materials/Fragment/Iridescence.mat
-  artifactKey: Guid(5eb2f3d066768d249b48497f3021bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Fragment/Iridescence.mat using Guid(5eb2f3d066768d249b48497f3021bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd164f17defc6646f476e21707d47e259') in 0.039337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 565.724319 seconds.
-  path: Assets/Materials/Surface/matss/fabric_0025_color_1k.jpg
-  artifactKey: Guid(88f32863de184f94f9281d727e0559e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/matss/fabric_0025_color_1k.jpg using Guid(88f32863de184f94f9281d727e0559e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe952f38e56b27212aa786e5309fc514') in 0.034722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Materials/Surface/matss/fabric_0025_normal_opengl_1k.png
-  artifactKey: Guid(ff7c35e3774219a4d8e5842650a5491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/matss/fabric_0025_normal_opengl_1k.png using Guid(ff7c35e3774219a4d8e5842650a5491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc743e759d8f432fad2e1a7cadfe714e') in 0.034410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Materials/Surface/matss/fabric_0025_height_1k.png
-  artifactKey: Guid(971f083a0577ae44396e595d95cdd11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/matss/fabric_0025_height_1k.png using Guid(971f083a0577ae44396e595d95cdd11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a4dc3cde3edc8747054b3b33ac0971') in 0.023012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 515.981811 seconds.
-  path: Assets/Materials/Surface/Matte.mat
-  artifactKey: Guid(057f712ea7217be459c68f19367eabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Surface/Matte.mat using Guid(057f712ea7217be459c68f19367eabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e2a315b360ebed7c341ffac19d5c71') in 0.180941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
